@@ -6,7 +6,7 @@
 
 /**
  * @mainpage This is a test.
- * Bla Bla Bla.
+ * Bla Bla Bla from branch.
  */
 
 /**
