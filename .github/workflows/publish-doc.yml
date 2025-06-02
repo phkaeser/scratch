@@ -18,6 +18,11 @@ jobs:
     container:
       image: debian:trixie
 
+    - name: Checkout code.
+      uses: actions/checkout@v3
+      with:
+        submodules: false
+
     steps:
     - name: Configure GitHub Pages
       uses: actions/configure-pages@v5
